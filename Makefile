@@ -3,3 +3,4 @@ mantribrot: mantribrot.c
 gif: mantribrot
 	./mantribrot
 	convert mantribrot_*.pgm -delay 4 mantribrot.gif
+	rm *.pgm
